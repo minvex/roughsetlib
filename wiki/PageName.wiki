@@ -9,11 +9,7 @@ DAS, TRL Models, TRL Logic are built respectively.
 
 
 = Details =
-==Sets==
-==Information System==
-==Approximation Spaces==
-==Temporal Rough Models==
-==Temporal Rough Logic==
+This library was created as a part of my MSc. Mathematics Project at IIT Kanpur. A complete report of the project is accesible at: 
 
 =Example=
 Let us create a TRL Model where partitions collapse into each other with time. To do so we first declare a set of objects O = {1, 2....K}, set of attributes A = {1, 2, 3....L}. Then we assign random valuation V to
