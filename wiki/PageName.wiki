@@ -9,12 +9,12 @@ DAS, TRL Models, TRL Logic are built respectively.
 
 
 = Details =
--Sets
--Information System
--Approximation Spaces
--Temporal Rough Models
--Temporal Rough Logic
+==Sets
+==Information System
+==Approximation Spaces
+==Temporal Rough Models
+==Temporal Rough Logic
 
-Example
+=Example
 Let us create a TRL Model where partitions collapse into each other with time. To do so we first declare a set of objects O = {1, 2....K}, set of attributes A = {1, 2, 3....L}. Then we assign random valuation V to
 these attributes, and obtain INFS_0 = InformationSystem(O,A,V); function. Now we remove attributes one by one from INFS_0 to obtain INFS_K = INFS_K+1.removeAttribute(K). As INFS_L has zero attributes, no objects are distinguishable and there is only one partition. Now we convert this array of Information Systems to Approximation Spaces using APSP[i] = toApproximationSpace(InformationSystem INFS[i]). Thus, we have a Dynamic Approximation Space with partitions collapsing into each other as it loses information with time. Any L-wff can be evaluated over this DAS using evaluate(formula); function in code TRLModel.java.
